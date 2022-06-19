@@ -1,0 +1,104 @@
+/* import des fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala:wght@400;700&display=swap'); /* font-family: 'Sarala', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap'); /* font-family: 'Parisienne', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap'); /* font-family: 'Merienda', cursive; */
+/* balises globales*/
+body {
+    font-family: 'Sarala', sans-serif;
+}
+.fondBleuGris {
+    height: 1136px;
+    background-color: rgba(21,32,43,1);
+}
+.fondBlanc {
+    height: 400px;
+    background-color: #F7F9F9;
+}
+
+/* header */
+header {
+    background-color: rgba(21,32,43,1);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    gap: 80px;
+    padding-right: 70px;
+}
+.navTabletteMobile {
+    display: none;
+}
+header nav a {
+    font-size: 36px;
+    color: #F7F9F9;
+    line-height: 59px;
+}
+header nav span {
+    border: 5px solid #119FBE;
+    padding: 5px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* fin header  */
+
+/* main */
+main {
+    background-color: #15202B;
+    /* padding-top: 70px; */
+}
+
+/*
+
+/* Ellipse 1 */
+/* .ellipse1 {
+    position: absolute;
+    width: 250px;
+    height: 606px;
+    left: calc(50% - 250px/2 + 605px);
+    top: calc(50% - 606px/2 + 605px);
+    
+    mix-blend-mode: lighten;
+    transform: rotate(179.67deg);
+    border: 10px solid;
+    border-image-source: linear-gradient(282.7deg, #119FBE 13.61%, rgba(17, 159, 190, 0) 81.48%);
+} */
+/* Ellipse 2 */
+/* .ellipse2 {
+    position: absolute;
+    width: 250px;
+    height: 606px;
+    left: calc(50% - 250px/2 + 735px);
+    top: calc(50% - 606px/2 + 675px);
+
+    mix-blend-mode: lighten;
+    filter: blur(6px);
+    transform: rotate(179.67deg);
+    color: #119FBE;
+} */
+/* Ellipse 3 */
+/* .ellipse3 {
+    position: absolute;
+    width: 250px;
+    height: 606px;
+    left: calc(50% - 250px/2 + 865px);
+    top: calc(50% - 606px/2 + 745px);
+
+    mix-blend-mode: lighten;
+    filter: blur(9px);
+    transform: rotate(179.67deg);
+    color: #119FBE;
+} */
+
